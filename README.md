@@ -47,7 +47,7 @@ Each implementation is accompanied by brief explanations of the data structure o
 │       ├── graph_adjacency_matrix.cpp 
 │       ├── graph_adjacency_list.cpp 
 │       └── graph_traversals.cpp 
-│           └── graphs.md            # Overview of graph representations and traversals 
+│       └── graphs.md            # Overview of graph representations and traversals 
 │   
 ├── /Algorithms
 │   ├── /Sorting_Algorithms
@@ -82,3 +82,21 @@ Each implementation is accompanied by brief explanations of the data structure o
 │   ├── n_queens_problem.cpp 
 │   └── backtracking.md             # Overview of backtracking techniques and examples 
 └── README.md                           # Main entry point for the repository 
+
+# MinGW setup
+    1. Download 'MinGW Installer' from sourceforge.net run the application.
+    2. Install All neccesary packages inside MinGW.
+    3. Set Environment Variable PATH : DEFAULT = "C:\MinGW\bin"
+    4. Test the installation using a terminal. Hit "gcc -v" / "g++ -v".
+    5. Open VS Code
+        - Either:
+            use Extension - Code Runner (.run) 
+        - OR: 
+            run Manually
+                -> gcc hello.cpp -o run
+                -> ./run OR ./run.exe 
+
+                OR
+
+                -> gcc hello.cpp
+                -> ./a OR ./a.exe
