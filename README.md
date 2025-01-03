@@ -1,7 +1,7 @@
-# Data Structure & Algorithms in C++
+# Data Structure & Algorithms in C
 
 ## Repository Description
-Welcome to the Data Structures and Algorithms in C++ repository! This repository serves as a practical resource for implementing fundamental data structures and algorithms in C++. It is designed for students, developers, and anyone interested in enhancing their programming skills through hands-on coding.
+Welcome to the Data Structures and Algorithms in C repository! This repository serves as a practical resource for implementing fundamental data structures and algorithms in C. It is designed for students, developers, and anyone interested in enhancing their programming skills through hands-on coding.
 
 ## Key Features:
 * Comprehensive Implementations: 
@@ -19,67 +19,67 @@ Each implementation is accompanied by brief explanations of the data structure o
 │
 ├── /Data_Structures
 │   ├── /Strings
-│   │   └── string_operations.cpp    # Searching and pattern matching functions
+│   │   └── string_operations.c   # Searching and pattern matching functions
 │   │   └── strings.md           # Overview of string operations and algorithms
 │   ├── /Arrays
-│   │   ├── arrays.cpp
+│   │   ├── arrays.c
 │   │   └── arrays.md               # Overview of arrays, operations, and memory layout
 │   ├── /Linked_Lists
-│   │   ├── singly_linked_list.cpp
-│   │   ├── doubly_linked_list.cpp
-│   │   ├── circular_linked_list.cpp
+│   │   ├── singly_linked_list.c
+│   │   ├── doubly_linked_list.c
+│   │   ├── circular_linked_list.c
 │   │   └── linked_lists.md          # Overview of linked lists and their types
 │   ├── /Stacks
-│   │   ├── stack.cpp
+│   │   ├── stack.c
 │   │   └── stacks.md                # Overview of stacks, operations, and applications
 │   ├── /Queues
 │   │   ├── queue.cpp
-│   │   ├── circular_queue.cpp
-│   │   ├── priority_queue.cpp
+│   │   ├── circular_queue.c
+│   │   ├── priority_queue.c
 │   │   └── queues.md                # Overview of queues and their types
 │   ├── /Trees
-│   │   ├── binary_tree.cpp
-│   │   ├── binary_search_tree.cpp
-│   │   ├── avl_tree.cpp
-│   │   ├── red_black_tree.cpp 
+│   │   ├── binary_tree.c
+│   │   ├── binary_search_tree.c
+│   │   ├── avl_tree.c
+│   │   ├── red_black_tree.c
 │   │   └── trees.md                 # Overview of tree structures and their properties 
 │   └── /Graphs
-│       ├── graph_adjacency_matrix.cpp 
-│       ├── graph_adjacency_list.cpp 
-│       └── graph_traversals.cpp 
+│       ├── graph_adjacency_matrix.c
+│       ├── graph_adjacency_list.c
+│       └── graph_traversals.c
 │       └── graphs.md            # Overview of graph representations and traversals 
 │   
 ├── /Algorithms
 │   ├── /Sorting_Algorithms
-│   │   ├── bubble_sort.cpp
-│   │   ├── selection_sort.cpp
-│   │   ├── insertion_sort.cpp
-│   │   ├── merge_sort.cpp
-│   │   ├── quick_sort.cpp
+│   │   ├── bubble_sort.c
+│   │   ├── selection_sort.c
+│   │   ├── insertion_sort.c
+│   │   ├── merge_sort.c
+│   │   ├── quick_sort.c
 │   │   └── sorting_algorithms.md     # Overview of sorting algorithms and their complexities 
 │   ├── /Searching_Algorithms
-│       ├── linear_search.cpp
-│       └── binary_search.cpp 
+│       ├── linear_search.c
+│       └── binary_search.c
 │       └── searching_algorithms.md    # Overview of searching algorithms and their complexities 
 │   
 ├── /Recursion
-│   ├── factorial.cpp
-│   ├── fibonacci.cpp
-│   └── tower_of_hanoi.cpp 
+│   ├── factorial.c
+│   ├── fibonacci.c
+│   └── tower_of_hanoi.c
 │   └── recursion.md               # Overview of recursion concepts and examples 
 │   
 ├── /Dynamic_Programming
-│   ├── knapsack_problem.cpp 
+│   ├── knapsack_problem.c
 │   └── dynamic_programming.md     # Overview of dynamic programming concepts and examples 
 │   
 ├── /Greedy_Methods
-│   ├── prims_mst.cpp 
-│   ├── kruskals_mst.cpp 
-│   └── dijkstras_algorithm.cpp 
+│   ├── prims_mst.c
+│   ├── kruskals_mst.c
+│   └── dijkstras_algorithm.c
 │   └── greedy_methods.md          # Overview of greedy algorithms and their applications 
 │   
 ├── /Backtracking
-│   ├── n_queens_problem.cpp 
+│   ├── n_queens_problem.c
 │   └── backtracking.md             # Overview of backtracking techniques and examples 
 └── README.md                           # Main entry point for the repository 
 
@@ -93,10 +93,10 @@ Each implementation is accompanied by brief explanations of the data structure o
             use Extension - Code Runner (.run) 
         - OR: 
             run Manually
-                -> gcc hello.cpp -o run
+                -> gcc hello.c -o run
                 -> ./run OR ./run.exe 
 
                 OR
 
-                -> gcc hello.cpp
+                -> gcc hello.c
                 -> ./a OR ./a.exe
