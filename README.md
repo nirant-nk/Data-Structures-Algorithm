@@ -13,8 +13,8 @@ Covers fundamental algorithms including sorting (like quicksort and mergesort) a
 * Concise Theoretical Explanations: 
 Each implementation is accompanied by brief explanations of the data structure or algorithm, including its purpose, usage, and time complexity.
 
-# File Structure for Reference
-
+# **File Structure for Reference**
+```
 /Data-Structures-Algorithm
 │
 ├── /Data_Structures
@@ -82,7 +82,7 @@ Each implementation is accompanied by brief explanations of the data structure o
 │   ├── n_queens_problem.c
 │   └── backtracking.md             # Overview of backtracking techniques and examples 
 └── README.md                           # Main entry point for the repository 
-
+```
 # MinGW setup
     1. Download 'MinGW Installer' from sourceforge.net run the application.
     2. Install All neccesary packages inside MinGW.
